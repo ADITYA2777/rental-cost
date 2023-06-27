@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./car_files/250d8d797213d1eab430e157c3b77523.jpg" type="image/x-icon">
+    <title>RENTAL CARS</title>
+    <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <h1>Calculate rental cost for cars</h1> 
+    <select  id="select">
+        <option value="Car type" hidden>Choose Car type</option>
+        <option value="Economy">Economy</option>
+        <option value="Midsize">Midsize</option>
+        <option value="Luxury">Luxury</option>
+    </select><br><br>
+    <input type="text" placeholder="Rent Duration (days)" id="rentduration"><br><br>
+    <button onclick="calaulaterent()">Calculate rent</button>
+    <button onclick="location.reload()">Refersh</button> 
+
+    <div id="output">output</div>
+    <script src="home.js"></script>
+</body>
+</html> 
